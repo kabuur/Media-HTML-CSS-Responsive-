@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+   
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-section">
+
+        <div class="images">
+                    <div class="title-image">
+                            <div> <h1>HTML Images</h1></div>
+                        </div>
+
+                    <div class="body-image">
+
+                            <div> <p>Images can improve the design and the appearance of a web page.</p></div>
+                    </div>
+
+                        <div class="images-tags">
+
+                            <img src="./Assets/1.png"   alt="">
+                            <img src="./Assets/2.png"   alt="">
+                            <img src="./Assets/3.png"   alt="">
+                    </div>
+
+                    <div class="examples">
+                        <div class="example-card">
+                            <div class="exaple-titale">
+                                    <h2>Example</h2>
+                            </div> 
+
+                            <div class="example-body">
+                                    <p > < img <span>src</span> ="small.png" <span>alt</span> ="smalling boy"> </p>
+                            </div>
+                        </div>
+
+
+                        <div class="example-card">
+                            <div class="exaple-titale">
+                                <h2>Example</h2>
+                            </div> 
+            
+                            <div class="example-body">
+                                <p > < img <span>src</span> ="dog.jpg" <span>alt</span> ="black dog"> </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+            
+
+            <div class="syntax-image">
+                <div class="syntex-titile">
+                    <h1>HTML Images Syntax</h1>
+                </div>
+                <p>The HTML <span>< img> </span> tag is used to embed an image in a web page.</p>
+                <p>Images are not technically inserted into a web page; images are linked to web pages. 
+                    The  <span>< img> </span>tag creates a holding space for the referenced image.</p>
+                <p>The  <span>< img> </span>tag is empty, it contains attributes only, and does not have a closing tag.</p>
+                <p>The  <span>< img> </span>tag has two required attributes:</p>
+                <ul>
+                    <li>src - Specifies the path to the image</li>
+                    <li>alt - Specifies an alternate text for the image</li>   
+                </ul>
+            </div>
+    </div>
+
+    <div class="video">
+            <div class="title-video">
+                <div> <h1>HTML Video</h1></div>
+            </div>
+
+        <div class="body-video">
+                <div> <p>The HTML <span> < video></video></span> element is used to show a video on a web page.</p></div>
+        </div>
+
+        <div class="video-tags">
+
+            <video height="240" controls>
+                <source src="Assets/mov_bbb.mp4" type="video/mp4">
+                <source src="Assets/mov_bbb.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+                </video>
+        </div>
+
+        <div class="examples">
+            <div class="example-card">
+            <div class="exaple-titale">
+                    <h2>Example</h2>
+            </div> 
+
+            <div class="example-body">
+                    <p > < video <span>width</span>="320" <span>height</span>="240" controls> <br>
+                        &nbsp &nbsp < source <span>src</span> ="movie.mp4" <span>type</span>="video/mp4"> <br>
+                        &nbsp &nbsp < source <span>src</span> ="movie.ogg" <span>type</span>="video/ogg"><br>
+                    Your browser does not support the video tag. <br>
+                    < /video>
+                    </p>
+            </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="syntax-video">
+            <div class="syntex-titile">
+                <h1>How it Works</h1>
+            </div>
+            <p>The <span>controls</span> controls attribute adds video controls, like play, pause, and volume.</p>
+            <p>It is a good idea to always include <span>width</span> and <span>height</span> attributes. If height and width are not set, the page might flicker while the video loads.</p>
+            <p>The  <span>< source></span> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.</p>
+            <p>The text between the <span>< video> </span> and <span>< /video> </span>  tags will only be displayed in browsers that do not support the <span>< video> </span>  element.</p>
+        
+        </div>
+    </div>
+
+
+    <div class="Audio">
+            <div class="title-Audio">
+                <div> <h1>HTML Audio</h1></div>
+            </div>
+
+        <div class="body-Audio">
+                <div> <p>The HTML <span>< audio> </span>element is used to play an audio file on a web page.</p></div>
+        </div>
+
+        <div class="Audio-tags">
+
+            <audio controls>
+                <source src="./Assets/music.mp3" type="audio/ogg">
+                <source src="./Assets/music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="examples">
+            <div class="example-card">
+            <div class="exaple-titale">
+                    <h2>Example</h2>
+            </div> 
+
+            <div class="example-body">
+                    <p > < audio controls> <br>
+                        &nbsp &nbsp  < source <span>src</span>="./Assets/music.mp3" <span>type</span>="audio/ogg"> <br>
+                        &nbsp &nbsp  < source <span>src</span>="./Assets/music.mp3"  <span>type</span>="audio/mpeg"> <br>
+                    Your browser does not support the audio element. <br>
+                    < /audio> <br>
+                    </p>
+            </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="syntax-video">
+            <div class="syntex-titile">
+                <h1>HTML Audio - How It Works</h1>
+            </div>
+            <p>The <span>controls</span> attribute adds audio controls, like play, pause, and volume.</p>
+            <p>The <span> < source></span> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.</p>
+            <p>The text between the <span>< audio></span>  and <span>< /audio></span>tags will only be displayed in browsers that do not support the <span>< audio></span>element.</p>
+            
+        
+        </div>
+</div>
+
+
+
+    </div>
+</body>
+</html>
